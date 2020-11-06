@@ -11,7 +11,7 @@ namespace DummyPackage.SampleProject
         RuntimeClass dummyobj; // this works
         
         [UnityTest]
-        public IEnumerator ProjectTests_TestOne()
+        public IEnumerator ProjectTestUsingPackageObject()
         {
             yield return new WaitForEndOfFrame();
         }
@@ -20,7 +20,7 @@ namespace DummyPackage.SampleProject
     public class ProjectTests2 : PackageTests // this works as well
     {
         [UnityTest]
-        public IEnumerator ProjectTests_TestTwo()
+        public IEnumerator ProjectTestExtendingPackageTest()
         {
             yield return new WaitForEndOfFrame();
         }

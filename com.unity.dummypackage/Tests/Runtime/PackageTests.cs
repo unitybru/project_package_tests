@@ -10,6 +10,7 @@ namespace DummyPackage.Tests
         [SetUp]
         public void Setup()
         {
+            Debug.LogWarning($"Message from the package tests!");
         }
 
         [TearDown]
@@ -18,7 +19,7 @@ namespace DummyPackage.Tests
         }
 
         [UnityTest]
-        public IEnumerator PackageTests_TestOne()
+        public IEnumerator PackageTest()
         {
             yield return new WaitForEndOfFrame();
         }
