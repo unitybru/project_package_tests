@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using DummyPackage.Runtime;
+using DummyPackage.Tests;
 using UnityEngine;
 using UnityEngine.TestTools;
 
@@ -16,7 +17,7 @@ namespace DummyPackage.SampleProject
         }
     }
 
-    public class ProjectTests2
+    public class ProjectTests2 : PackageTests // this works as well
     {
         [UnityTest]
         public IEnumerator ProjectTests_TestTwo()

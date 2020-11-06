@@ -2,6 +2,7 @@
     "name": "ProjectTests",
     "references": [
         "DummyPackage.Runtime",
+        "DummyPackage.Tests",
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner"
     ],
