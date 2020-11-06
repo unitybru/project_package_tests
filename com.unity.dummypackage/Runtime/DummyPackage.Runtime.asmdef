@@ -1,0 +1,7 @@
+{
+    "name": "DummyPackage.Runtime",
+    "references": [
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}

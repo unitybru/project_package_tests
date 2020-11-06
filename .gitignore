@@ -1,0 +1,11 @@
+/dummyproject/**/.idea
+/dummyproject/**/.vs
+/dummyproject/**/Builds
+/dummyproject/**/Library
+/dummyproject/**/Logs
+/dummyproject/**/obj
+/dummyproject/**/ProjectSettings
+/dummyproject/**/Temp
+*.csproj
+*.sln
+/dummyproject/Packages/packages-lock.json
