@@ -1,4 +1,4 @@
-namespace DummyPackage
+namespace DummyPackage.Runtime
 {
 	public class RuntimeClass
 	{

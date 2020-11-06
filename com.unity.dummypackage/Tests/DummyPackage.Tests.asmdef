@@ -1,0 +1,10 @@
+{
+    "name": "DummyPackage.Tests",
+    "references": [
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}
