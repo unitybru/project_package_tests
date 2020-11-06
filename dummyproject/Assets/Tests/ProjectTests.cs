@@ -1,24 +1,25 @@
 ﻿using System.Collections;
-using NUnit.Framework;
+using DummyPackage.Runtime;
 using UnityEngine;
 using UnityEngine.TestTools;
 
 namespace DummyPackage.SampleProject
 {
-    public class ProjectTests
+    public class ProjectTests1
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
-        [TearDown]
-        public void TearDown()
-        {
-        }
-
+        RuntimeClass dummyobj; // this works
+        
         [UnityTest]
         public IEnumerator ProjectTests_TestOne()
+        {
+            yield return new WaitForEndOfFrame();
+        }
+    }
+
+    public class ProjectTests2
+    {
+        [UnityTest]
+        public IEnumerator ProjectTests_TestTwo()
         {
             yield return new WaitForEndOfFrame();
         }
