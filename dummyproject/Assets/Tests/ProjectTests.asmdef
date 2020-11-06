@@ -1,0 +1,9 @@
+{
+    "name": "ProjectTests",
+    "references": [
+        "DummyPackage.Runtime"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}
